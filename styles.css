@@ -24,7 +24,7 @@ body {
 
 /* Header */
 .header {
-    background: var(--primary-color);
+   background: #0f100f;
     color: var(--secondary-color);
     padding: 60px 20px;
     text-align: center;
