@@ -86,3 +86,71 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
+@media (max-width: 992px) {
+  .container {
+    width: 98%;
+    padding: 0 10px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .logo {
+    width: 180px;
+    height: 180px;
+    font-size: 1.1rem;
+  }
+  .header-content .main-heading {
+    font-size: 2rem;
+  }
+  .btn-language {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .section {
+    padding: 40px 5px;
+  }
+  .product-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .product-card {
+    width: 90%;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 30px 5px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    font-size: 0.8rem;
+  }
+  .main-heading {
+    font-size: 1.3rem;
+  }
+  .sub-heading {
+    font-size: 0.95rem;
+  }
+  .section-title {
+    font-size: 1.3rem;
+  }
+  .product-card {
+    max-width: 100%;
+    padding: 10px 0;
+  }
+  .footer {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+}
+
